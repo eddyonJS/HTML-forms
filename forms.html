@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+
+    <h1> Forms </h1>
+    <form> 
+
+        <!-- Simple input form -->
+         <h3> Simple Input Form </h3>
+         <input>
+
+        <!-- Input text type (default type)-->
+         <h3> Input Text Type </h3> 
+         <input type="text">
+
+        <!-- Input number type -->
+         <h3> Input Number Type </h3> 
+         <input type="number" name="" id="">
+         
+        <!-- Input date type -->
+         <h3> Input Date Type </h3>
+         <input type="date">
+
+         <!-- Input password type -->
+         <h3> Input Password Type </h3>
+         <input type="password">
+         
+         <!-- Buttons -->
+        <h1> Buttons </h1>
+
+        <h3> Input fButton </h3>
+        <input type="button" value="Button">
+
+        <h3> Submit fButton </h3>
+        <input type="submit" value="Submit Button">
+
+       <!-- New alternative way -->
+
+       <h3> Button tag </h3>
+       <button type="button">Button</button>
+       <!-- Default type is already "button"-->
+       
+       <h3> Submit Button tag </h3>
+       <button type="submit"> Submit </button>
+       <!-- only use one submit button in a single form rest submit attributes you can repeat -->
+       <!-- input name give name to all input to connect data with them foir example if someone enters a username assign it attribute of name+"username" to connect the dot also add id so id go in for attribute in label tag we have to connect for attribute  with id by adding same name as id in for attribute in the label tag-->
+    
+    
+    </form>
+
+       <!-- Difference in submit button and normal button is 
+        one is used to take input data to server, backend 
+        for example in login form submition data
+        
+        Difference in submit button example is ecommerce store quantity increase or decrease of your cart..   -->
+   
+        
+    <h2> Form 2 (giving names is must in forms input attribute for backend connection, 
+         forms action attribute means where to display the data typed in the fields and 
+        check the difference in Get Post)</h2>
+   
+   
+   <!---->
+    
+     <!--  <form action=""></form> action attribute to connect server file with it -->
+     <form action="" method="get"></form> 
+     <form action="" method="post"></form>
+     <!-- method GET is defaut method attribute for a form but method POST encrypts the data for example you want to not  display imp username password or info in route but you still want to send it to backend without showing so you use encryption method POST to hide password username and othyer imp stealable informations -->
+     
+     <form >
+     <h3> Username </h3>
+     <input type="text" name="username">
+
+     <h3> Password </h3>
+     <input type="text" name="password">
+
+    <button> Submit </button> <!--button default attribute type is submit --> 
+    </form>
+    <!--check live example on show preview route add data input to last username and pass and see how it exposes it in route to avoid that we use method post-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
